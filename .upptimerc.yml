@@ -1,36 +1,125 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: hykilpikonna
+repo: upptime
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
+  # ovh.hydev.org - OVH Montreal
+  - name: Link Shortener (lisho)
+    url: https://sh.hydev.org
+  - name: File Server
+    url: https://hydev.org
+  - name: Matrix Synapse
+    url: https://hydev.org/_matrix/static/
+  - name: One Among Us GitHub Webhook
+    url: https://hydev.org/_github
+  - name: One Among Us Telegram Backup
+    url: https://hydev.org/backup
+
+  # camellia.home.net.men.ci - Menci's Lab
+  - name: Amaoke
+    url: https://amaoke.app
+  - name: Voice Tools Backend
+    url: https://voice-backend.hydev.org
+  - name: Whisper Transcription Backend
+    url: https://whisper.hydev.org
+  - name: Sekai LLM Inference
+    url: https://sekai.aquadx.net/llm/health
+  - name: Camellia Stable Diffusion
+    url: https://camellia-sd.hydev.org/Text2Image
+
+  # tulip.hydev.org - Stable Docker Web Deployment
+  - name: Tulip Host
+    url: https://tulip.hydev.org
+  - name: Profile API
+    url: https://profile-api.hydev.org
+  - name: Project Instant
+    url: https://p.hydev.org
+  - name: Telegram Channel Tree
+    url: https://tree.aza.moe
+  - name: Grafana
+    url: https://grafana.hydev.org
+  - name: InfluxDB
+    url: https://influx.hydev.org
+  - name: Minecraft Server
+    url: mc.hydev.org
+    port: 25565
     check: "tcp-ping"
-    ipv6: true
+  - name: Slither Link
+    url: https://slither.hydev.org
+  - name: Moderator Webhook
+    url: https://moderator-webhook.hydev.org
+  - name: Orizuru Staging
+    url: https://staging.orizuru.org
+  - name: Gitea
+    url: https://gitea.aza.moe
+  - name: DocuSeal
+    url: https://docuseal.hydev.org
+  - name: Flowy Backend (CSC301)
+    url: https://301-bk.hydev.org
+  - name: MeetSphere (CSC309)
+    url: https://meet.hydev.org
+  - name: Owncast
+    url: https://cast.hydev.org
+  - name: Owncast Public
+    url: https://pcast.hydev.org
+  - name: Open WebUI
+    url: https://ow.hydev.org
+  - name: SillyTavern
+    url: https://tavern.hydev.org
+
+  # rose.hydev.org - HDD Deployment VM
+  - name: Jellyfin
+    url: https://jellyfin.hydev.org
+  - name: Immich
+    url: https://immich.hydev.org
+  - name: Web Archive
+    url: https://archive.hydev.org
+
+  # lilac.hydev.org - Proxmox VE
+  - name: Home Assistant
+    url: https://home.hydev.org
+
+  # snowdrop.hydev.org - Oracle ARM
+  - name: AquaDX
+    url: https://aquadx.net
+  - name: AquaDX Mirror
+    url: https://aquadx.hydev.org
+
+  # GitHub Pages - primary
+  - name: Profile Redirect
+    url: https://profile.hydev.org
+  - name: tg-blog Demo
+    url: https://test-tg.one-among.us
+  - name: FAD Toolkit Paper
+    url: https://fadtk.hydev.org
+  - name: Voice Tools Frontend
+    url: https://voice.hydev.org
+  - name: Uptime Monitor
+    url: https://uptime.hydev.org
+  - name: Personal Projects (me)
+    url: https://me.hydev.org
+
+  # Cloudflare Pages
+  - name: One Among Us
+    url: https://one-among.us
+  - name: One Among Us Data
+    url: https://data.one-among.us
+  - name: Blog (aza.moe)
+    url: https://aza.moe
+  - name: Neowofetch
+    url: https://neowofetch.hydev.org
+  - name: Maigo Labs
+    url: https://maigo.dev
+  - name: Flowy (CSC301)
+    url: https://flowy.hydev.org
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
+  cname: uptime.hydev.org
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  name: HyDEV Uptime
+  introTitle: "**HyDEV Uptime** monitors all hydev.org services."
+  introMessage: Real-time status of services hosted across HyDEV's server fleet. Powered by [Upptime](https://github.com/upptime/upptime) — GitHub Actions, Issues, and Pages.
   navbar:
     - title: Status
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
