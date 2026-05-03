@@ -31,6 +31,9 @@ sites:
     url: https://tulip.hydev.org
   - name: Profile API
     url: https://profile-api.hydev.org
+    expectedStatusCodes:
+      - 200
+      - 404
   - name: Project Instant
     url: https://p.hydev.org
   - name: Telegram Channel Tree
@@ -40,11 +43,14 @@ sites:
   - name: InfluxDB
     url: https://influx.hydev.org
   - name: Minecraft Server
-    url: mc.hydev.org
+    url: https://mc.hydev.org
   - name: Slither Link
     url: https://slither.hydev.org
   - name: Moderator Webhook
     url: https://moderator-webhook.hydev.org
+    expectedStatusCodes:
+      - 200
+      - 405
   - name: Orizuru Staging
     url: https://staging.orizuru.org
   - name: Gitea
@@ -59,14 +65,20 @@ sites:
     url: https://cast.hydev.org
   - name: Owncast Public
     url: https://pcast.hydev.org
+    expectedStatusCodes:
+      - 200
+      - 401
   - name: Open WebUI
     url: https://ow.hydev.org
   - name: SillyTavern
     url: https://tavern.hydev.org
+    expectedStatusCodes:
+      - 200
+      - 401
 
   # rose.hydev.org - HDD Deployment VM
   - name: Jellyfin
-    url: https://jellyfin.hydev.org
+    url: https://jellyfin.hydev.org/health
   - name: Immich
     url: https://immich.hydev.org
   - name: Web Archive
