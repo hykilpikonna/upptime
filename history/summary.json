@@ -493,11 +493,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/pcast.hydev.org.ico",
     "slug": "owncast-public",
     "status": "down",
-    "uptime": "88.16%",
+    "uptime": "88.17%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "88.16%",
-    "uptimeMonth": "88.16%",
-    "uptimeYear": "88.16%",
+    "uptimeWeek": "88.17%",
+    "uptimeMonth": "88.17%",
+    "uptimeYear": "88.17%",
     "time": 287,
     "timeDay": 333,
     "timeWeek": 287,
@@ -564,7 +564,7 @@
     "timeMonth": 279,
     "timeYear": 279,
     "dailyMinutesDown": {
-      "2026-05-03": 1347,
+      "2026-05-03": 1348,
       "2026-05-02": 1440,
       "2026-05-01": 331
     }
