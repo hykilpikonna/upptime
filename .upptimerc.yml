@@ -41,8 +41,6 @@ sites:
     url: https://influx.hydev.org
   - name: Minecraft Server
     url: mc.hydev.org
-    port: 25565
-    check: "tcp-ping"
   - name: Slither Link
     url: https://slither.hydev.org
   - name: Moderator Webhook
