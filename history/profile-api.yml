@@ -1,7 +1,7 @@
 url: https://profile-api.hydev.org
-status: up
-code: 404
+status: down
+code: 502
 responseTime: 114
-lastUpdated: 2026-05-24T23:23:04.255Z
+lastUpdated: 2026-05-25T21:33:45.794Z
 startTime: 2026-04-27T06:07:36.403Z
 generator: Upptime <https://github.com/upptime/upptime>
