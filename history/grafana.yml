@@ -1,7 +1,7 @@
 url: https://grafana.hydev.org
-status: down
-code: 530
-responseTime: 30
-lastUpdated: 2026-05-25T21:34:34.411Z
+status: up
+code: 200
+responseTime: 534
+lastUpdated: 2026-05-25T21:58:02.232Z
 startTime: 2026-04-27T06:07:38.983Z
 generator: Upptime <https://github.com/upptime/upptime>
