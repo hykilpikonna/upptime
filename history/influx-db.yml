@@ -1,7 +1,7 @@
 url: https://influx.hydev.org
-status: up
-code: 200
-responseTime: 79
-lastUpdated: 2026-07-01T23:32:02.562Z
+status: down
+code: 530
+responseTime: 81
+lastUpdated: 2026-07-02T22:12:14.382Z
 startTime: 2026-04-27T06:07:39.948Z
 generator: Upptime <https://github.com/upptime/upptime>
