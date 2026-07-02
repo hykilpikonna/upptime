@@ -1,7 +1,7 @@
 url: https://moderator-webhook.hydev.org
-status: up
-code: 405
-responseTime: 85
-lastUpdated: 2026-07-01T23:32:02.921Z
+status: down
+code: 530
+responseTime: 44
+lastUpdated: 2026-07-02T22:12:55.627Z
 startTime: 2026-04-27T06:08:57.672Z
 generator: Upptime <https://github.com/upptime/upptime>
