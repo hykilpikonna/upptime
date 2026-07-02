@@ -1,7 +1,7 @@
 url: https://jellyfin.hydev.org/health
-status: down
-code: 502
-responseTime: 84
-lastUpdated: 2026-07-02T22:13:51.591Z
+status: up
+code: 200
+responseTime: 231
+lastUpdated: 2026-07-02T22:37:24.080Z
 startTime: 2026-04-27T06:09:06.562Z
 generator: Upptime <https://github.com/upptime/upptime>
