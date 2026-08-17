@@ -1,7 +1,7 @@
 url: https://neowofetch.hydev.org
-status: up
-code: 200
-responseTime: 380
-lastUpdated: 2026-08-16T23:16:12.935Z
+status: down
+code: 429
+responseTime: 13171
+lastUpdated: 2026-08-17T14:58:46.626Z
 startTime: 2026-04-27T06:09:47.523Z
 generator: Upptime <https://github.com/upptime/upptime>
