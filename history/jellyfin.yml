@@ -1,7 +1,7 @@
 url: https://jellyfin.hydev.org/health
 status: up
 code: 200
-responseTime: 240
-lastUpdated: 2026-09-12T23:09:16.769Z
+responseTime: 115
+lastUpdated: 2026-09-13T23:11:42.661Z
 startTime: 2026-04-27T06:09:06.562Z
 generator: Upptime <https://github.com/upptime/upptime>
